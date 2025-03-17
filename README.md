@@ -1,8 +1,10 @@
 Titanic Classification Project
 
+
 Overview
 
 This project involves predicting the survival of passengers aboard the Titanic using various machine learning models. The dataset used is the Titanic dataset from Kaggle, which contains information such as age, fare, passenger class, and more.
+
 
 Dataset
 
@@ -32,6 +34,7 @@ Embarked: Port of embarkation (C, Q, S)
 
 Survived: Target variable (0 = No, 1 = Yes)
 
+
 Models Used
 The following machine learning models were implemented and evaluated:
 
@@ -51,6 +54,7 @@ Voting Classifier (Ensemble Model)
 
 Bagging Classifier (Ensemble Model)
 
+
 Implementation
 
 Data Preprocessing
@@ -67,5 +71,7 @@ Training each model on the training set by Evaluating accuracy
 
 Comparing model performance and selecting the best model
 
+
 Results
+
 After evaluating multiple models, the XGBClassifier achieved the best performance with an accuracy of 0.8324022346368715
